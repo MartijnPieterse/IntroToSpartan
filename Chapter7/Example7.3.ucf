@@ -1,0 +1,13 @@
+# Constraints for Papilio Pro
+#
+# Note: The switches and LEDs are numbered in such a way that 0 is the LSB.
+#       On the boards the switches and leds are numbered from left to right.
+#
+# Due to a broken switch0 (numbered 7 on the board) I had to use 1 and 2 instead.
+
+#NET switch_0    LOC = "P121" | IOSTANDARD=LVTTL;
+NET switch_1    LOC = "P120" | IOSTANDARD=LVTTL;
+NET switch_2    LOC = "P119" | IOSTANDARD=LVTTL;
+
+NET LED_0       LOC = "P134" | IOSTANDARD=LVTTL;
+NET LED_1       LOC = "P133" | IOSTANDARD=LVTTL;
