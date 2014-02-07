@@ -29,7 +29,7 @@ Changelog
 
 __2014-02-07__
 
-Chapter 11
+Chapter 11 & 12
 
 __2014-02-07__
 
