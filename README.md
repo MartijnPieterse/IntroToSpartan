@@ -27,6 +27,10 @@ not be feasible. Don't know.
 Changelog
 =========
 
+__2014-02-07__
+
+Chapter 10
+
 __2014-02-01__
 
-Chapter 6 and 7.
+Chapter 6, 7, 8 and 9.
