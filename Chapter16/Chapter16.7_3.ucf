@@ -1,0 +1,10 @@
+# Constraints for Papilio Pro
+NET switches(0) LOC = "P114" | IOSTANDARD=LVTTL;
+NET switches(1) LOC = "P115" | IOSTANDARD=LVTTL;
+
+#
+NET "clk"       LOC = "P94" | IOSTANDARD=LVCMOS25;
+
+#
+NET "audio"     LOC = "P62";
+

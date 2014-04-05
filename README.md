@@ -27,6 +27,14 @@ not be feasible. Don't know.
 Changelog
 =========
 
+__2014-04-05__
+
+Chapter 16
+
+__2014-03-23__
+
+Chapter 15
+
 __2014-03-22__
 
 Chapter 14

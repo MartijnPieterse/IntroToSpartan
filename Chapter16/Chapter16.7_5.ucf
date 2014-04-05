@@ -1,0 +1,8 @@
+# Constraints for Papilio Pro
+
+#
+NET "clk"       LOC = "P94" | IOSTANDARD=LVCMOS25;
+
+#
+NET "audio"     LOC = "P62";
+
