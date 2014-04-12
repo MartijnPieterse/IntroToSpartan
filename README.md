@@ -24,8 +24,18 @@ TODO
 Somehow put all the build commands in a makefile. But this might
 not be feasible. Don't know.
 
+BUGS
+====
+
+One of the switches from my LogicStart Wing came off, so none 
+of the projects use switch 7.
+
 Changelog
 =========
+
+__2014-04-12__
+
+Chapter 17 (part, due to being unable to see any switch bouncing. To be investigated later..)
 
 __2014-04-05__
 
