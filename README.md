@@ -33,6 +33,10 @@ of the projects use switch 7.
 Changelog
 =========
 
+__2014-04-15__
+
+Chapter 18 and 19
+
 __2014-04-12__
 
 Chapter 17 (part, due to being unable to see any switch bouncing. To be investigated later..)
