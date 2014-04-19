@@ -33,6 +33,10 @@ of the projects use switch 7.
 Changelog
 =========
 
+__2014-04-19__
+
+Chapter 20. (Without the Challenge)
+
 __2014-04-15__
 
 Chapter 18 and 19

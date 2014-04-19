@@ -1,0 +1,3 @@
+NET "clk"            LOC="P94"  | IOSTANDARD=LVCMOS25 | PERIOD=31.25ns;               # CLK
+#NET "rx"             LOC="P101" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=FAST;          # RX
+NET "tx"             LOC="P105" | IOSTANDARD=LVTTL | DRIVE=8 | SLEW=FAST; # TX
