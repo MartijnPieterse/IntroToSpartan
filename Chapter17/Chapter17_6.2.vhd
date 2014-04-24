@@ -65,25 +65,25 @@ begin
                 when state_one_right =>
                     case switches is
                         when "01000000" => state <= state_one_right;
-                        when "01100000" => state <= state_two_right;
+                        when "00000000" => state <= state_two_right;
                         when others     => state <= state_error;
                     end case;
                 when state_two_right =>
                     case switches is
-                        when "01100000" => state <= state_two_right;
-                        when "01110000" => state <= state_three_right;
+                        when "00000000" => state <= state_two_right;
+                        when "00010000" => state <= state_three_right;
                         when others     => state <= state_error;
                     end case;
                 when state_three_right =>
                     case switches is
-                        when "01110000" => state <= state_three_right;
-                        when "01111000" => state <= state_open;
+                        when "00010000" => state <= state_three_right;
+                        when "00011000" => state <= state_open;
                         when others     => state <= state_error;
                     end case;
                 when state_open =>
                     startblink <= '1';
                     case switches is
-                        when "01111000" => 
+                        when "00011000" => 
                             state <= state_open;
                         when others     => 
                             state <= state_error;

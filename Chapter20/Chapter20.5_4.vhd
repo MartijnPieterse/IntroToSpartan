@@ -14,11 +14,12 @@ end Communicate;
 -- 0 == 0011 0000
 -- 1 == 0011 0001
 -- \n == 0000 1010
+-- \r == 0000 1101
 
 architecture behavioral of Communicate is
 
     signal pinchar   : unsigned(6 downto 0) := "0011000";
-    signal tx_d      : unsigned(89 downto 0) := (others => '1');
+    signal tx_d      : unsigned(99 downto 0) := (others => '1');
     signal count     : unsigned(11 downto 0) := (others => '0');
     signal bits      : unsigned(6 downto 0) := (others => '0');
     signal once      : std_logic := '0';
@@ -48,7 +49,7 @@ begin
 
             if count = 3332 then
                 count <= (others => '0');
-                tx_d <= '1' & tx_d(89 downto 1);
+                tx_d <= '1' & tx_d(99 downto 1);
                 if bits /= 0 then
                     bits <= bits - 1;
                 end if;
@@ -87,11 +88,14 @@ begin
                         tx_d(71) <= SWITCH(7);
                         tx_d(70) <= '0';
 
-                        tx_d(88 downto 81) <= "00001010";
+                        tx_d(88 downto 81) <= "00001101";
                         tx_d(80) <= '0';
 
+                        tx_d(98 downto 91) <= "00001010";
+                        tx_d(90) <= '0';
+
                         pressed <= '0';
-                        bits <= to_unsigned(90, 7);
+                        bits <= to_unsigned(100, 7);
                     end if;
                 end if;
             else
